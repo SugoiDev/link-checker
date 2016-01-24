@@ -4,6 +4,7 @@ gem "nokogiri", "~> 1.6"
 gem "colorize", "~> 0.7.3"
 gem "anemone", "~> 0.7.2"
 gem "trollop", "~> 2.0"
+gem "certified", "~> 1.0.0"
 
 group(:test, :development) do
   gem "rspec", "~> 2.14.1"
@@ -13,4 +14,6 @@ group(:test, :development) do
   gem "yard", "~> 0.8.7.4"
   gem "redcarpet", "~> 3.1.2"
   gem "byebug", "~> 3.1.2"
+  gem "yard", "~> 0.8.2.1"
+  gem "redcarpet", "~> 2.1.1"
 end

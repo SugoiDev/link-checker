@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib"]
   s.authors = ["Ryan Alyn Porter"]
-  s.date = "2014-05-29"
+  s.date = "2016-01-24"
   s.description = "A Ruby gem for checking the links in a web site. Can either scan files or crawl pages. Multi-threaded, with red/green colored output, support for SSL, and support for following redirects. Works great with Octopress, Jekyll, or any collection of static HTML files. With 100% RSpec coverage."
   s.executables = ["check-links"]
   s.extra_rdoc_files = [
@@ -382,6 +382,7 @@ Gem::Specification.new do |s|
       s.add_runtime_dependency(%q<colorize>, ["~> 0.7.3"])
       s.add_runtime_dependency(%q<anemone>, ["~> 0.7.2"])
       s.add_runtime_dependency(%q<trollop>, ["~> 2.0"])
+      s.add_runtime_dependency(%q<certified>, ["~> 1.0.0"])
       s.add_development_dependency(%q<rspec>, ["~> 2.14.1"])
       s.add_development_dependency(%q<jeweler>, ["~> 2.0.1"])
       s.add_development_dependency(%q<simplecov>, ["~> 0.8.2"])
@@ -394,6 +395,7 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<colorize>, ["~> 0.7.3"])
       s.add_dependency(%q<anemone>, ["~> 0.7.2"])
       s.add_dependency(%q<trollop>, ["~> 2.0"])
+      s.add_dependency(%q<certified>, ["~> 1.0.0"])
       s.add_dependency(%q<rspec>, ["~> 2.14.1"])
       s.add_dependency(%q<jeweler>, ["~> 2.0.1"])
       s.add_dependency(%q<simplecov>, ["~> 0.8.2"])
@@ -407,6 +409,7 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<colorize>, ["~> 0.7.3"])
     s.add_dependency(%q<anemone>, ["~> 0.7.2"])
     s.add_dependency(%q<trollop>, ["~> 2.0"])
+    s.add_dependency(%q<certified>, ["~> 1.0.0"])
     s.add_dependency(%q<rspec>, ["~> 2.14.1"])
     s.add_dependency(%q<jeweler>, ["~> 2.0.1"])
     s.add_dependency(%q<simplecov>, ["~> 0.8.2"])
